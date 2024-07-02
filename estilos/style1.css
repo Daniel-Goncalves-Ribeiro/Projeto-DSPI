@@ -14,7 +14,7 @@ Amarelo: #FFDF42
 }
 
 body, html {
-    background-color: #FFDF42;
+    background: linear-gradient(to right, black, #3533CD);
     height: 100vh;
     width: 100vw;
 }
@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #FFDF42 url(../imagens/f1.jpg) no-repeat;
+    background: #1e3dafd4 url(../imagens/f1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -67,13 +67,13 @@ div#formulário > p {
 }
 
 form > div.campo {
-    background-color: #ff3729b0;
+    background-color: #3633cdbb;
     width: 100%;
     display: block;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
-    border: 2px solid #aa2920;
+    border: 2px solid #0b0d80b0;
 }
 
 div.campo > label {
@@ -88,7 +88,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #FFDF42;
+    background-color:  #0b0d807c;
     font-size: 1em;
     width: 80%;
     height: 100%;
@@ -145,7 +145,7 @@ form > a.botao > i {
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, #FFDF42, #FF3829);
+        background: linear-gradient(to right, black, #3533CD)
     }
 
     section#login {
@@ -165,7 +165,7 @@ form > a.botao > i {
         width: 70%;
     }
     div.campo > input {
-        background-color: #FFDF42;
+        background-color: #0b0d807c;
         font-size: 1em;
         width: 89%;
         transform: translateY(-12px);
@@ -179,7 +179,7 @@ form > a.botao > i {
 @media screen and (min-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, #FFDF42, #FF3829);
+        background: linear-gradient(to right, black, #3533CD)
     }
 
     section#login {
@@ -207,7 +207,7 @@ form > a.botao > i {
         margin: 10px 0px;
     }
     div.campo > input {
-        background-color: #FFDF42;
+        background-color:#0b0d807c;
         font-size: 1em;
         width: 90%;
         transform: translateY(-12px);
@@ -217,4 +217,3 @@ form > a.botao > i {
         padding: 4px;
     }
 }
-    
