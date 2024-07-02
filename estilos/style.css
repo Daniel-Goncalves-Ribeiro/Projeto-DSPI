@@ -25,7 +25,7 @@ header {
 nav {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    padding: 0 1rem;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -35,11 +35,13 @@ nav {
 
 ul > a:hover {
     background-color: #3633cd70;
-    padding: 10px;
+    padding: 1rem 2rem;
     border-radius: 10px;
 }
 
 ul > a {
+    padding: 0 2rem;
+    text-align: center;
     text-decoration: none;
     color: white;
 }
@@ -143,6 +145,7 @@ main section h1 {
     width: 450px;
     display: block;
     margin-left: 200px;
+    box-shadow: 18px 10px 15px rgba(0, 0, 0, 0.418);
 }
 
 .forte {
@@ -168,7 +171,7 @@ div.separar {
 
 div.parte2 {
     background: linear-gradient(to bottom,  black, #3533CD);
-    width: 1583px;
+    width: 100%;
     height: 500px;
 }
 
@@ -177,6 +180,7 @@ div.parte2 {
     width: 400px;
     display: block;
     margin-left: 900px;
+    box-shadow: 18px 10px 15px rgba(0, 0, 0, 0.418);
 }
 
 div.parte2 > h2 {
@@ -184,8 +188,10 @@ div.parte2 > h2 {
     font-family: var(--fonte-titulo);
     font-size: 3em;
     -webkit-text-fill-color: transparent; 
-    background: linear-gradient(to right, #ffff, #000000);
-    -webkit-background-clip: text;
+    background: linear-gradient(to right, white, gray);
+    -webkit-background-clip: text; 
+    -moz-background-clip: text;
+    background-clip: text;
 }
 
 div.parte2 > p {
@@ -366,8 +372,8 @@ footer {
 }
 
 .pl {
-    width: 6em;
-    height: 6em;
+    width: 5em;
+    height: 5em;
   }
   
   .pl__ring {
@@ -393,7 +399,7 @@ footer {
     stroke: #f42582;
   }
   
-  /* Animations */
+
   @keyframes ringA {
     from, 4% {
       stroke-dasharray: 0 660;
