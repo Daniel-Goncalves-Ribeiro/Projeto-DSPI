@@ -357,18 +357,126 @@ div.parte2 > p {
 }
 
 footer {
-    background: #000000;
+    width: auto;
+    background-color: black;
     color: white;
-    align-items: center;
-    text-align: center;
+    position: relative;
 }
 
-.p11 {
-    padding-top: 30px;
+footer > img#logo{
+    position: absolute;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 70px;
 }
 
-.p12 {
-    padding-bottom: 30px;
+footer > img#fb {
+    position: absolute;
+    width: 18px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+footer > img#ig {
+    position: absolute;
+    width: 18px;
+    margin-left: 230px;
+    margin-top: 150px;
+}
+
+footer > img#in {
+    position: absolute;
+    width: 18px;
+    margin-left: 260px;
+    margin-top: 150px;
+}
+
+footer > p#p14 {
+    position: absolute;
+    font-size: 0.5em;
+    margin-left: 200px;
+    margin-top: 180px;  
+}
+
+footer > p#p15 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 70px;  
+}
+
+footer > p#p16 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 15px;  
+}
+
+footer > p#p17 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 15px;  
+}
+
+footer > p#p18 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 15px; 
+}
+
+.divider {
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    background-color: white;
+    margin-left: 1050px;
+    margin-top: 80px;
+}
+
+.divider:nth-child(odd) {
+    top: 0;
+}
+
+.divider:nth-child(even) {
+    bottom: 0;
+}
+
+footer > p#p19 {
+    position: absolute;
+    font-size: 1em;
+    margin-left: 1100px;
+    margin-top: -130px;  
+}
+
+footer > p#p20 {
+    font-size: 1em;
+    margin-left: 1100px;
+    margin-top: -90px;  
+}
+
+footer > p#p21 {
+    font-size: 1em;
+    margin-left: 1100px;
+    margin-top: 15px;  
+}
+
+footer > a {
+    position: relative;
+    margin-left: 650px;
+    top: 110px;
+    background-color: #181675;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+footer > a:hover {
+    background-color: #3533CD;
+    border: 2px solid #3533CD;
+    color: #181675;
 }
 
 .pl {
