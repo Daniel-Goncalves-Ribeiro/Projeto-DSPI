@@ -22,6 +22,14 @@ header {
     background: linear-gradient(to left, black, #3533CD);
 }
 
+img.solutions {
+  position: relative;
+  width: 150px;
+  margin-top: -30px;
+  padding-right: 20px;
+  margin-left: -400px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -143,9 +151,7 @@ ul > a {
   
   .button:active::before {
     scale: 0.7;
-  }
-  
-  
+  }  
 
 p {
     font-family: var(--fonte-texto);
@@ -154,6 +160,8 @@ p {
 p.entrada {
     color: white;
     font-size: small;
+    margin-left: 80px;
+    margin-top: -30px;
 }
 
 p.entrada > strong {
@@ -163,13 +171,15 @@ p.entrada > strong {
 
 .config-bar {
   position: relative;
+  margin-top: 50px;
+  margin-left: 10px;
   display: inline-block;
 }
 
 .dot-menu {
   width: 20px;
   height: 20px;
-  background-color: #333;
+  background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -184,7 +194,8 @@ p.entrada > strong {
 
 .config-menu {
   display: none;
-  position: absolute;
+  position: relative;
+
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -212,7 +223,10 @@ p.entrada > strong {
 
 main > section > img.person {
   width: 20px;
+  position: relative;
   padding: 10px;
+  margin-left: 30px;
+  margin-top: -70px;
   border-radius: 90px;
   background-color: white;
 }
