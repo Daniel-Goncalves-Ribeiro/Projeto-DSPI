@@ -402,7 +402,7 @@ footer > img#logo{
     position: absolute;
     width: 250px;
     margin-left: 130px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 footer > img#fb {
