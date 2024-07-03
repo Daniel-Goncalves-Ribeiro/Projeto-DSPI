@@ -153,7 +153,12 @@ p {
 
 p.entrada {
     color: white;
-    font-size: xx-small;
+    font-size: small;
+}
+
+p.entrada > strong {
+    color: white;
+    font-size: small;
 }
 
 main section h1 {
