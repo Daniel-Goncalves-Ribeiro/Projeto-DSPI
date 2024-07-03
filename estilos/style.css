@@ -161,6 +161,62 @@ p.entrada > strong {
     font-size: small;
 }
 
+.config-bar {
+  position: relative;
+  display: inline-block;
+}
+
+.dot-menu {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 3px 0;
+}
+
+.config-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.config-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.config-menu ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+.config-menu ul li a {
+  text-decoration: none;
+}
+
+.config-menu ul li:hover {
+  background-color: #808080;
+}
+
+
+main > section > img.person {
+  width: 20px;
+  padding: 10px;
+  border-radius: 90px;
+  background-color: white;
+}
+
 main section h1 {
     font-family: var(--fonte-titulo);
     color: white;
